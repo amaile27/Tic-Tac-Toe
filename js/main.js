@@ -36,15 +36,7 @@ const colors = {
 
 //   event listeners, added other one below with initGame
 // need something  to listen for click box on board to get next turn
-  document.getElementById('1').addEventListener('click', playerBoxClick);
-  document.getElementById('2').addEventListener('click', playerBoxClick);
-  document.getElementById('3').addEventListener('click', playerBoxClick);
-  document.getElementById('4').addEventListener('click', playerBoxClick);
-  document.getElementById('5').addEventListener('click', playerBoxClick);
-  document.getElementById('6').addEventListener('click', playerBoxClick);
-  document.getElementById('7').addEventListener('click', playerBoxClick);
-  document.getElementById('8').addEventListener('click', playerBoxClick);
-  document.getElementById('9').addEventListener('click', playerBoxClick);
+  document.getElementById('board').addEventListener('click', playerBoxClick);
 
 
   //3. DOM elements? need to grab boxes 
